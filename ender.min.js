@@ -1,7 +1,7 @@
 /*!
   * =============================================================
   * Ender: open module JavaScript framework (https://ender.no.de)
-  * Build: ender build zepto iscroll
+  * Build: ender build zepto iscroll zepto
   * Packages: ender-js@0.4.4-1 zepto@0.0.3 iscroll@4.2.5
   * =============================================================
   */
