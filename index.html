@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#222222">
+
+
+        <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+        <!--
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="">
+        -->
+
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        <!--
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+        -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+
+        <!-- Add your site or application content here -->
+        <!-- Wrap all page content here -->
+        <div id="wrap">
+
+            <!-- Fixed navbar -->
+            <div id="header">
+                <a href="http://www.pagalguy.com">PaGalGuy</a>
+            </div>
+
+            <!-- Begin page content -->
+            <div id="wrapper">
+                <div id="scroller">
+                    <div class="page-header">
+                        <h1>Sticky footer with fixed navbar</h1>
+                    </div>
+                    <p class="lead">
+                        Pin a fixed-height footer to the bottom of the viewport in desktop 
+                        browsers with this custom HTML and CSS. A fixed navbar has been added 
+                        within <code>#wrap</code> with <code>padding-top: 60px;</code> on the
+                        <code>.container</code>.
+                    </p>
+                    <p class="lead">
+                        Pin a fixed-height footer to the bottom of the viewport in desktop 
+                        browsers with this custom HTML and CSS. A fixed navbar has been added 
+                        within <code>#wrap</code> with <code>padding-top: 60px;</code> on the
+                        <code>.container</code>.
+                    </p>
+                    <p class="lead">
+                        Pin a fixed-height footer to the bottom of the viewport in desktop 
+                        browsers with this custom HTML and CSS. A fixed navbar has been added 
+                        within <code>#wrap</code> with <code>padding-top: 60px;</code> on the
+                        <code>.container</code>.
+                    </p>
+                </div>
+            </div>
+
+            <div id="push"></div>
+        </div>
+
+        <div id="footer">
+            <div class="container">
+                <div class="btn-toolbar">
+                    <div class="btn-group">
+                        <a class="btn btn-super-large btn-black" href="javascript:;"><span class="glyphicon glyphicon-align-left"></span></a>
+                        <a class="btn btn-super-large btn-black" href="javascript:;"><span class="glyphicon glyphicon-align-center"></span></a>
+                        <a class="btn btn-super-large btn-black" href="javascript:;"><span class="glyphicon glyphicon-align-right"></span></a>
+                        <a class="btn btn-super-large btn-black" href="javascript:;"><span class="glyphicon glyphicon-align-justify"></span></a>
+                        <a class="btn btn-super-large btn-black" href="javascript:;"><span class="glyphicon glyphicon-align-justify"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="ender.min.js"></script>
+        
+        <script type="text/javascript">
+            var myScroll;
+            function loaded() {
+                myScroll = $("#wrapper").iScroll();
+            }
+            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+            document.addEventListener('DOMContentLoaded', loaded, false);
+            MBP.preventZoom();
+        </script>
+    </body>
+</html>
